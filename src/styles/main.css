@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+/* Genel kullanımda olan şeyleride bu css dosyası içerisine yazdım
+tailwind ile buna gerek kalmadan çözülebilir */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.w-150 {
+    width:150px;
+}
+
+.w-200 {
+    width:200px;
+}
+
+.navbar-logo {
+    /* Ant design navbar 64 px olduğu için ona göre ayarlanmıştır */
+    height: 46px;
+    margin-top: 9px;
+}
+
+.page-content {
+    min-height: calc(100vh - 64px);
+    background-color: #013a63;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.movie-name:hover {
+    cursor: pointer;
+    color:#013a63;
+    text-decoration: underline;
+}
+
+.detail-poster {
+    width: 80%;
+    border-radius: 10px;
+}
+
