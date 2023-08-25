@@ -1,4 +1,4 @@
-- Uygulamayı çalıştırmak için ilk olarak "npm install" ardından "npm start" komutlarını çalıştırmak yeterlidir.
+- Uygulamayı çalıştırmak için ilk olarak "**npm install**" ardından "**npm start**" komutlarını çalıştırmak yeterlidir.
 
 - Season ve episode'a göre arama yapma maalesef çalışmıyor sanırım 
 omdbapi'sinde sorun var(umarım sorun bende değildir :)
